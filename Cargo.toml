@@ -1,0 +1,11 @@
+[package]
+name = "w_result"
+version = "0.1.0"
+authors = ["Andrew Cann <shum@canndrew.org>"]
+description = "A result type that carries warnings"
+license = "GPL-3.0"
+readme = "README.md"
+
+[dependencies]
+log = "~0.3.5"
+
