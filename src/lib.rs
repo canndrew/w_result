@@ -12,7 +12,8 @@ extern crate log;
 
 use std::fmt;
 use std::iter::FromIterator;
-use self::WResult::*;
+
+pub use self::WResult::*;
 
 /// A result type that carries warnings.
 #[must_use]

@@ -14,7 +14,7 @@ enum WResult<T, W, E> {
 ```
 
 `WResult` is similar to `Result` except that the ok variant carries a vector of
-warnings alongside it's valuie. The advantages over just using
+warnings alongside it's value. The advantages over just using
 `Result<(T, Vec<W>), E>` are
  * Clarity.
  * Some `WResult` methods will automatically accumulate warnings from multiple
