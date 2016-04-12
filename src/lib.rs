@@ -17,6 +17,7 @@ pub use self::WResult::*;
 
 /// A result type that carries warnings.
 #[must_use]
+#[derive(PartialEq, Eq, Hash, Clone, Debug)]
 pub enum WResult<T, W, E> {
     /// Contains the success value along with any accumulated warnings.
     WOk(T, Vec<W>),
