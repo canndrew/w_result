@@ -2,6 +2,8 @@
 name = "w_result"
 version = "0.1.2"
 authors = ["Andrew Cann <shum@canndrew.org>"]
+repository = "https://github.com/canndrew/w_result"
+documentation = "https://docs.rs/w_result"
 description = "A result type that carries warnings"
 license = "GPL-3.0"
 readme = "README.md"
